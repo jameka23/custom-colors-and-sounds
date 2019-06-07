@@ -7,6 +7,12 @@ namespace customColorsAndSounds{
         public virtual void Drive () {
             Console.WriteLine("Vrooom!");
         }
+        public virtual void Turn(string direction){
+            Console.WriteLine($"The vehicle carefully turns {direction}.");
+        }
+        public virtual void Stop(){
+            Console.WriteLine("The vehicle gently rolls to a stop.");
+        }
         
     }
 }

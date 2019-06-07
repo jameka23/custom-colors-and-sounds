@@ -28,10 +28,27 @@ namespace customColorsAndSounds
             ram1500.MaximumOccupancy = "4";
 
             fxs.Drive();
-            modelS.Drive();
-            mx410.Drive();
-            ram1500.Drive();
+            fxs.Turn("right");
+            fxs.Stop();
+            Console.WriteLine("");
 
+            modelS.Drive();
+            modelS.Turn("left");
+            modelS.Stop();
+            Console.WriteLine("");
+
+
+            mx410.Drive();
+            mx410.Turn("right");
+            mx410.Stop();
+            Console.WriteLine("");
+
+
+            ram1500.Drive();
+            ram1500.Turn("left");
+            ram1500.Stop();
+
+            Console.WriteLine("");
 
         }
     }
